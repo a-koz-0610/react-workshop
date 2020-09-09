@@ -1,18 +1,18 @@
 import React from 'react';
-
-import Home from './pages/home';
-import StarWarsPeople from './pages/star-wars-people';
-
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
+
+import HomePage from './pages/home';
+import StarWarsPeoplePage from './pages/star-wars-people';
 import Nav from './components/nav';
+
 import style from './style.module.scss';
 
 function App() {
 
   const PageSwitch = () => (
     <Switch>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/star-wars-people' component={StarWarsPeople} />
+      <Route exact path='/' component={HomePage} />
+      <Route exact path='/star-wars-people' component={StarWarsPeoplePage} />
     </Switch>
   )
 
