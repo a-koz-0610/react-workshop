@@ -16,7 +16,7 @@
 - Style your application with CSS Modules 
 
 ## How to work with this application 
-- clone the applicationls
+- clone the applications
 - cd into `react-workshop/client-side`
 - run `npm install`
 - if you use vs code you can open with `code .` 
